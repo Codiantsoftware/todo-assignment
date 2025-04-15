@@ -37,7 +37,7 @@ const SignupForm: React.FC<SignupFormProps> = ({ onSubmitSuccess }) => {
         label="Name"
         formik={formik}
         required={true}
-        placeholder="Enter your phone name"
+        placeholder="Enter your name"
       />
 
       <FormInput
@@ -47,7 +47,7 @@ const SignupForm: React.FC<SignupFormProps> = ({ onSubmitSuccess }) => {
         type="email"
         formik={formik}
         required={true}
-        placeholder="Enter your phone email"
+        placeholder="Enter your email"
       />
 
       <FormInput
@@ -57,7 +57,7 @@ const SignupForm: React.FC<SignupFormProps> = ({ onSubmitSuccess }) => {
         type="tel"
         formik={formik}
         required={true}
-        placeholder="Enter your phone number"
+        placeholder="Enter your number"
       />
 
       <button
